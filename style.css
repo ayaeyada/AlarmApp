@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+  }
+  
+  /* background */
+  body {
+    background: #8C596E;
+    text-align: center;
+  }
+  
+  /* header */
+  h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4em;
+    color: #F3CDD8;
+  }
+  
+  /* buttons */
+  button {
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 10px 30px;
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: 0;
+    color: #F3CDD8;
+    transition: all ease 300ms;
+  }
+  button:hover {
+    color: #8C596E;
+    background: #F3CDD8;
+  }
+  
+  /* center content vertically and horizontally */
+  .table {
+    display: table;
+    width: 100%;
+    height: 100%;
+  }
+  .cell {
+    display: table-cell;
+    vertical-align: middle;
+    cursor: default;
+  }
+  
+  /* variable misc classes */
+  .hide {
+    display: none;
+  }
